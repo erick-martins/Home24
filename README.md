@@ -35,5 +35,5 @@ Checkout a complete list of the dependent libraries below:
 
 ### Scratch
 
-![app's scratch](scratch.jpg)
+![app's scratch](scratch.png)
 
