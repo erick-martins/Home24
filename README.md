@@ -26,7 +26,6 @@ Checkout a complete list of the dependent libraries below:
 
 | Link | Description |
 | :----- | :------ |
-[CocoaPods.org](https://cocoapods.org/) | Homepage and search for Pods.
 [Alamofire](https://github.com/Alamofire/Alamofire) | Alamofire is an HTTP networking library.
 [AlamofireObjectMapper](https://github.com/tristanhimmelman/AlamofireObjectMapper) | An extension to [Alamofire](https://github.com/Alamofire/Alamofire) which automatically converts JSON response data into swift objects using [ObjectMapper](https://github.com/Hearst-DD/ObjectMapper/).
 [ObjectMapper](https://github.com/Hearst-DD/ObjectMapper/) | ObjectMapper is a framework written in Swift that makes it easy for you to convert your model objects (classes and structs) to and from JSON.
