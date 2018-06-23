@@ -16,7 +16,7 @@ See how does it work
 ## Changing the number of post to show
 In the file `Constants.swift` change the constant `NUM_OF_POSTS` to any value you want at line 12
 ```swift
-	static let NUM_OF_POSTS = 10
+static let NUM_OF_POSTS = 10
 ```
 
 ## Library Dependencies
