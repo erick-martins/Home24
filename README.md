@@ -26,10 +26,10 @@ Checkout a complete list of the dependent libraries below:
 
 ## Screenshots
 
-![ScreenShot 1](ScreenShots/ScreenShot-1.png =350x)
-![ScreenShot 2](ScreenShots/ScreenShot-2.png =350x)
-![ScreenShot 3](ScreenShots/ScreenShot-3.png =350x)
-![ScreenShot 4](ScreenShots/ScreenShot-4.png =350x)
+![ScreenShot 1](ScreenShots/ScreenShot-1.png)
+![ScreenShot 2](ScreenShots/ScreenShot-2.png)
+![ScreenShot 3](ScreenShots/ScreenShot-3.png)
+![ScreenShot 4](ScreenShots/ScreenShot-4.png)
 
 ## Wireframe
 
