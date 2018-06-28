@@ -16,8 +16,42 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // set default configuration
+        UserDefaults.standard.register(defaults: [
+            "preferedReviewMode" : "list",
+            "votedCounter" : 0,
+        ])
+        let userDefaults = UserDefaults.standard
+        let votedCounter = userDefaults.integer(forKey: "votedCounter")
+        
+        
+        if !Constants.PERSISTENT_DATA{
+            resetDefaults()
+        }else if votedCounter >= Constants.NUM_OF_POSTS{
+            
+            // if data should NOT be persistent and user already voted for all articles, it goes strait to review
+            let sb = UIStoryboard(name: "Main", bundle: nil)
+            if userDefaults.string(forKey: "preferedReviewMode") == "list" {
+                window?.rootViewController = sb.instantiateViewController(withIdentifier: "articlesLikesTableNav")
+            }else{
+                window?.rootViewController = sb.instantiateViewController(withIdentifier: "articlesLikesCollectionNav")
+            }
+        }
+        
+        window?.makeKeyAndVisible()
         return true
+    }
+    
+    /**
+     * resets all data stored before on user default
+     */
+    func resetDefaults() {
+        let defaults = UserDefaults.standard
+        let dictionary = defaults.dictionaryRepresentation()
+        dictionary.keys.forEach { key in
+            defaults.removeObject(forKey: key)
+        }
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

@@ -1,20 +1,11 @@
 # Erick's test app to Home24!
 
 This is an test app for the **Home24's iOS Developer Job.**
-
-
-### Screenshots
-See how does it work
-![ScreenShot 1](ScreenShots/ScreenShot-1jpg)
-![ScreenShot 2](ScreenShots/ScreenShot-2jpg)
-![ScreenShot 3](ScreenShots/ScreenShot-3jpg)
-![ScreenShot 4](ScreenShots/ScreenShot-4jpg)
-![ScreenShot 5](ScreenShots/ScreenShot-5jpg)
-
-
+Hope you enjoy it!
+Best regards
 
 ## Changing the number of post to show
-In the file `Constants.swift` change the constant `NUM_OF_POSTS` to any value you want at line 12
+In the file `Utils/Constants.swift` change the constant `NUM_OF_POSTS` to any value you want at line 13; Default is 10
 ```swift
 static let NUM_OF_POSTS = 10
 ```
@@ -29,10 +20,17 @@ Checkout a complete list of the dependent libraries below:
 [Alamofire](https://github.com/Alamofire/Alamofire) | Alamofire is an HTTP networking library.
 [AlamofireObjectMapper](https://github.com/tristanhimmelman/AlamofireObjectMapper) | An extension to [Alamofire](https://github.com/Alamofire/Alamofire) which automatically converts JSON response data into swift objects using [ObjectMapper](https://github.com/Hearst-DD/ObjectMapper/).
 [ObjectMapper](https://github.com/Hearst-DD/ObjectMapper/) | ObjectMapper is a framework written in Swift that makes it easy for you to convert your model objects (classes and structs) to and from JSON.
-[AFNetworking](https://github.com/AFNetworking/AFNetworking) | AFNetworking is a delightful networking library for iOS, macOS, watchOS, and tvOS.
+[SQLite.swift](https://github.com/stephencelis/SQLite.swift) | A type-safe, Swift-language layer over SQLite3.
 [Kingfisher](https://github.com/onevcat/Kingfisher) | Kingfisher is a lightweight, pure-Swift library for downloading and caching images from the web.
 
-### Scratch
+
+## Screenshots
+
+![ScreenShot 1](ScreenShots/ScreenShot-1.png)
+![ScreenShot 2](ScreenShots/ScreenShot-2.png)
+![ScreenShot 3](ScreenShots/ScreenShot-3.png)
+![ScreenShot 4](ScreenShots/ScreenShot-4.png)
+
+## Wireframe
 
 ![app's scratch](scratch.png)
-
